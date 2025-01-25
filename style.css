@@ -1,0 +1,90 @@
+body {
+    background-color: pink;
+}
+header {
+    position: fixed;
+    width: 90%;
+    padding: 10px 5%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+
+main {
+    height: 100vh;
+    align-items: center;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    color: black;
+    height: 50vh;
+}
+
+.contact {
+    color: black;
+    margin: 0 20px;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    position: relative;
+    width: 90%;
+    padding: 20px 5%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Product1 {
+    width: 45%;
+    padding: 10px 10%;
+    background-color: beige;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10%;
+}
+.Product2 {
+    width: 45%;
+    padding: 10px 10%;
+    background-color: beige;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10%;
+}
+.Product3{
+    width: 45%;
+    padding: 10px 10%;
+    background-color: beige;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10%;
+}
+
+button{
+    background-color: #4CAF50; 
+    border-radius: 5px;
+    color:beige;
+    font-size: medium;
+}
+footer{
+    color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
